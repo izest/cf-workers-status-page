@@ -105,7 +105,7 @@ monitors:
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
-- id: fitzpatrickmemorial-org
+- id: fitz-org
   name: FitzPatrick Memorial
   url: 'https://www.fitzpatrickmemorial.org'
   method: GET # default=GET
@@ -113,7 +113,7 @@ monitors:
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
-- id: flikcinemas-com
+- id: flik-com
   name: Flik Cinemas
   url: 'https://www.flikcinemas.com/'
   method: GET # default=GET
@@ -137,7 +137,7 @@ monitors:
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
-- id: rugbyplayersireland-ie	
+- id: rugb-ie	
   name: Rugby Players Ireland
   url: 'https://www.rugbyplayersireland.ie'
   method: GET # default=GET
