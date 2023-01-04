@@ -35,7 +35,7 @@ monitors:
 
 - id: blossomtreeball-ie
   name: Blossm Treeball	
-  url: https://www.blossomtreeball.ie
+  url: 'https://www.blossomtreeball.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -43,7 +43,7 @@ monitors:
 
 - id: chanellemccoyhealth-com
   name: Chanellemccoy Health	
-  url: https://www.chanellemccoyhealth.com
+  url: 'https://www.chanellemccoyhealth.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -51,7 +51,7 @@ monitors:
 
 - id: ciaraskitchen-ie
   name: Ciaras Kitchen	
-  url: https://ciaraskitchen.ie
+  url: 'https://ciaraskitchen.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -59,7 +59,7 @@ monitors:
 
 - id: chernobyl-international-com
   name: Chernobyl-International	
-  url: https://www.chernobyl-international.com/
+  url: 'https://www.chernobyl-international.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -67,7 +67,7 @@ monitors:
 
 - id: clarionconsulting-com
   name: Clarion Consulting	
-  url: https://clarionconsulting.com
+  url: 'https://clarionconsulting.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -75,7 +75,7 @@ monitors:
 
 - id: deececollective-com
   name: Deece Collective	
-  url: https://www.deececollective.com
+  url: 'https://www.deececollective.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -83,7 +83,7 @@ monitors:
 
 - id: dlsc-ie 
   name: DLSC	
-  url: https://dlsc.ie/
+  url: 'https://dlsc.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -91,7 +91,7 @@ monitors:
 
 - id: farah-me-com
   name: Farah	
-  url: https://farah-me.com
+  url: 'https://farah-me.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -99,7 +99,7 @@ monitors:
 
 - id: fitzpatrickhotels-com
   name: FitzPatrick Hotels	
-  url: http://fitzpatrickhotels.com
+  url: 'http://fitzpatrickhotels.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -107,7 +107,7 @@ monitors:
 
 - id: fitzpatrickmemorial-org
   name: FitzPatrick Memorial	
-  url: http://www.fitzpatrickmemorial.org
+  url: 'http://www.fitzpatrickmemorial.org'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -115,7 +115,7 @@ monitors:
 
 - id: fitzpatrickmemorial-org
   name: Flik Cinemas	
-  url: http://flikcinemas.com
+  url: 'http://flikcinemas.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -123,7 +123,7 @@ monitors:
 
 - id: gatetheatre-ie
   name: The Gate	
-  url: https://www.gatetheatre.ie/
+  url: 'https://www.gatetheatre.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -131,7 +131,7 @@ monitors:
 
 - id: glendagilson-com
   name: Glenda Gilson	
-  url: https://www.glendagilson.com
+  url: 'https://www.glendagilson.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -139,7 +139,7 @@ monitors:
 
 - id: rugbyplayersireland-ie	
   name: Rugby Players Ireland	
-  url: http://rugbyplayersireland.ie
+  url: 'http://rugbyplayersireland.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -147,7 +147,7 @@ monitors:
 
 - id: izeststart-ie	
   name: izeststart	
-  url: https://www.izeststart.ie/
+  url: 'https://www.izeststart.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -155,7 +155,7 @@ monitors:
 
 - id: midnight-ie	
   name: midnight	
-  url: https://midnight.ie
+  url: 'https://midnight.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -163,7 +163,7 @@ monitors:
 
 - id: movement-pod-ie	
   name: We are Movement	
-  url: https://www.movement-pod.ie/
+  url: 'https://www.movement-pod.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -171,15 +171,15 @@ monitors:
 
 - id: wearemovement-ie	
   name: We are Movement	
-  url: https://www.wearemovement.ie
+  url: 'https://www.wearemovement.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
 - id: naasracecourse-com	
-  name:: Naas Race Course	
-  url: https://naasracecourse.com/
+  name: Naas Race Course	
+  url: 'https://naasracecourse.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -187,7 +187,7 @@ monitors:
 
 - id: payslip-com	
   name: Payslip	
-  url: https://payslip.com
+  url: 'https://payslip.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -195,7 +195,7 @@ monitors:
 
 - id: peterstringer-ie	
   name: Peter Stringer	
-  url: https://www.peterstringer.ie
+  url: 'https://www.peterstringer.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -203,7 +203,7 @@ monitors:
 
 - id: pippa-ie	
   name: Pippa	
-  url: https://www.pippa.ie/
+  url: 'https://www.pippa.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -211,7 +211,7 @@ monitors:
 
 - id: pippa-tv	
   name: Pippa TV	
-  url: https://www.pippa.tv/
+  url: 'https://www.pippa.tv'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -219,7 +219,7 @@ monitors:
 
 - id: readytobereal-com	
   name: Ready to be Real	
-  url: https://www.readytobereal.com/
+  url: 'https://www.readytobereal.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -227,7 +227,7 @@ monitors:
 
 - id: rugbyplayers-org	
   name: Rugby Players Org	
-  url: https://www.rugbyplayers.org
+  url: 'https://www.rugbyplayers.org'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -235,7 +235,7 @@ monitors:
 
 - id: stelfox-com	
   name: Stelfox	
-  url: https://www.stelfox.com
+  url: 'https://www.stelfox.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -243,7 +243,7 @@ monitors:
 
 - id: tackleyourfeelings-com	
   name: Tackle Your Feelings	
-  url: http://www.tackleyourfeelings.com
+  url: 'http://www.tackleyourfeelings.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -251,7 +251,7 @@ monitors:
 
 - id: triona-ie	
   name: Triona	
-  url: https://www.triona.ie/
+  url: 'https://www.triona.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -259,7 +259,7 @@ monitors:
 
 - id: unicornpr-ie	
   name: Unicorn PR	
-  url: https://unicornpr.ie/
+  url: 'https://unicornpr.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -267,7 +267,7 @@ monitors:
 
 - id: wissamalmana-com	
   name: Wissam Almana	
-  url: https://www.wissamalmana.com
+  url: 'https://www.wissamalmana.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -275,7 +275,7 @@ monitors:
 
 - id: zarrdia-com	
   name: Zarrdia	
-  url: https://www.zarrdia.com/
+  url: 'https://www.zarrdia.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -283,14 +283,14 @@ monitors:
 
 - id: downdogstudio-ie	
   name: DownDog	
-  url: https://www.downdogstudio.ie/
+  url: 'https://www.downdogstudio.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 - id: futurerange-ie	
   name: Futurerange	
-  url: https://futurerange.ie/
+  url: 'https://futurerange.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -298,7 +298,7 @@ monitors:
 
 - id: nexventur-com	
   name: nexventur	
-  url: https://www.nexventur.com/
+  url: 'https://www.nexventur.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -306,7 +306,7 @@ monitors:
 
 - id: gaelform-com	
   name: Galeform	
-  url: https://gaelform.com/
+  url: 'https://gaelform.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -314,7 +314,7 @@ monitors:
 
 - id: siamsatire-com	
   name: siamsatire	
-  url: https://siamsatire.com/
+  url: 'https://siamsatire.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -322,7 +322,7 @@ monitors:
 
 - id: crpayrollsolutions-com	
   name: CR Payroll	
-  url: https://crpayrollsolutions.com/
+  url: 'https://crpayrollsolutions.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -330,15 +330,15 @@ monitors:
 
 - id: warriorsforhumanity-orgwfhaccess	
   name: warriorsforhumanity	
-  url: https://warriorsforhumanity.org/
+  url: 'https://warriorsforhumanity.org'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
 - id: uglowofficial-com	
-  name: uglowofficial.com	
-  url: https://uglowofficial.com/
+  name: uglowofficial.com'	
+  url: 'https://uglowofficial.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
