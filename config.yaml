@@ -113,7 +113,7 @@ monitors:
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
-- id: fitzpatrickmemorial-org
+- id: flikcinemas-com
   name: Flik Cinemas	
   url: 'https://www.flikcinemas.com/'
   method: GET # default=GET
