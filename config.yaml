@@ -51,7 +51,7 @@ monitors:
 
 - id: ciaraskitchen-ie
   name: Ciaras Kitchen	
-  url: 'https://ciaraskitchen.ie'
+  url: 'https://www.ciaraskitchen.ie/'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -99,7 +99,7 @@ monitors:
 
 - id: fitzpatrickhotels-com
   name: FitzPatrick Hotels	
-  url: 'http://fitzpatrickhotels.com'
+  url: 'https://www.fitzpatrickhotels.com/'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -211,7 +211,7 @@ monitors:
 
 - id: pippa-tv	
   name: Pippa TV	
-  url: 'https://www.pippa.tv'
+  url: 'https://pippa.tv/'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
