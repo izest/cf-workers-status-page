@@ -15,22 +15,336 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: izestmarketing-com # unique identifier
-    name: izestmarketing.com
-    description: 'izest Website' # default=empty
-    url: 'https://www.izestmarketing.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+- id: izestmarketing-com # unique identifier
+  name: izestmarketing.com
+  description: 'izest Website' # default=empty
+  url: 'https://www.izestmarketing.com' # URL to fetch
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
 
-  - id: almana-com # unique identifier
-    name: almana.com
-    description: 'Almana Group' # default=empty
-    url: 'https://almana.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-  
+- id: almana-com # unique identifier
+  name: almana.com
+  description: 'Almana Group' # default=empty
+  url: 'https://almana.com' # URL to fetch
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: blossomtreeball-ie
+  name: Blossm Treeball	
+  url: https://www.blossomtreeball.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: chanellemccoyhealth-com
+  name: Chanellemccoy Health	
+  url: https://www.chanellemccoyhealth.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: ciaraskitchen-ie
+  name: Ciaras Kitchen	
+  url: https://ciaraskitchen.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: chernobyl-international-com
+  name: Chernobyl-International	
+  url: https://www.chernobyl-international.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: clarionconsulting-com
+  name: Clarion Consulting	
+  url: https://clarionconsulting.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: deececollective-com
+  name: Deece Collective	
+  url: https://www.deececollective.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: dlsc-ie 
+  name: DLSC	
+  url: https://dlsc.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: farah-me-com
+  name: Farah	
+  url: https://farah-me.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: fitzpatrickhotels-com
+  name: FitzPatrick Hotels	
+  url: http://fitzpatrickhotels.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: fitzpatrickmemorial-org
+  name: FitzPatrick Memorial	
+  url: http://www.fitzpatrickmemorial.org
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: fitzpatrickmemorial-org
+  name: Flik Cinemas	
+  url: http://flikcinemas.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: gatetheatre-ie
+  name: The Gate	
+  url: https://www.gatetheatre.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: glendagilson-com
+  name: Glenda Gilson	
+  url: https://www.glendagilson.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: rugbyplayersireland-ie	
+  name: Rugby Players Ireland	
+  url: http://rugbyplayersireland.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: izeststart-ie	
+  name: izeststart	
+  url: https://www.izeststart.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: midnight-ie	
+  name: midnight	
+  url: https://midnight.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: movement-pod-ie	
+  name: We are Movement	
+  url: https://www.movement-pod.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: wearemovement-ie	
+  name: We are Movement	
+  url: https://www.wearemovement.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: naasracecourse-com	
+  name:: Naas Race Course	
+  url: https://naasracecourse.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: payslip-com	
+  name: Payslip	
+  url: https://payslip.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: peterstringer-ie	
+  name: Peter Stringer	
+  url: https://www.peterstringer.ie
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: pippa-ie	
+  name: Pippa	
+  url: https://www.pippa.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: pippa-tv	
+  name: Pippa TV	
+  url: https://www.pippa.tv/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: readytobereal-com	
+  name: Ready to be Real	
+  url: https://www.readytobereal.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: rugbyplayers-org	
+  name: Rugby Players Org	
+  url: https://www.rugbyplayers.org
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: stelfox-com	
+  name: Stelfox	
+  url: https://www.stelfox.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: tackleyourfeelings-com	
+  name: Tackle Your Feelings	
+  url: http://www.tackleyourfeelings.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: triona-ie	
+  name: Triona	
+  url: https://www.triona.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: unicornpr-ie	
+  name: Unicorn PR	
+  url: https://unicornpr.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: wissamalmana-com	
+  name: Wissam Almana	
+  url: https://www.wissamalmana.com
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: zarrdia-com	
+  name: Zarrdia	
+  url: https://www.zarrdia.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: downdogstudio-ie	
+  name: DownDog	
+  url: https://www.downdogstudio.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+- id: futurerange-ie	
+  name: Futurerange	
+  url: https://futurerange.ie/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: nexventur-com	
+  name: nexventur	
+  url: https://www.nexventur.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: gaelform-com	
+  name: Galeform	
+  url: https://gaelform.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: siamsatire-com	
+  name: siamsatire	
+  url: https://siamsatire.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: crpayrollsolutions-com	
+  name: CR Payroll	
+  url: https://crpayrollsolutions.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: warriorsforhumanity-orgwfhaccess	
+  name: warriorsforhumanity	
+  url: https://warriorsforhumanity.org/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+- id: uglowofficial-com	
+  name: uglowofficial.com	
+  url: https://uglowofficial.com/
+  method: GET # default=GET
+  expectStatus: 200 # operational status, default=200
+  followRedirect: false # should fetch follow redirects, default=false
+  linkable: false # allows the title to be a link, default=true
+
+
+
+
 
