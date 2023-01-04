@@ -27,7 +27,7 @@ monitors:
   - id: almana-com # unique identifier
     name: almana.com
     description: 'Almana Group' # default=empty
-    url: 'https://www.izestmarketing.com' # URL to fetch
+    url: 'https://almana.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
