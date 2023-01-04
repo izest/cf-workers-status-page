@@ -99,7 +99,7 @@ monitors:
 
 - id: fitzpatrickhotels-com
   name: FitzPatrick Hotels	
-  url: 'https://www.fitzpatrickhotels.com/'
+  url: 'https://www.fitzpatrickhotels.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -107,7 +107,7 @@ monitors:
 
 - id: fitzpatrickmemorial-org
   name: FitzPatrick Memorial	
-  url: 'https://www.fitzpatrickmemorial.org/'
+  url: 'https://www.fitzpatrickmemorial.org'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -115,7 +115,7 @@ monitors:
 
 - id: flikcinemas-com
   name: Flik Cinemas	
-  url: 'https://www.flikcinemas.com/'
+  url: 'https://www.flikcinemas.com'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
@@ -139,7 +139,7 @@ monitors:
 
 - id: rugbyplayersireland-ie	
   name: Rugby Players Ireland	
-  url: 'https://www.rugbyplayersireland.ie/'
+  url: 'https://www.rugbyplayersireland.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
