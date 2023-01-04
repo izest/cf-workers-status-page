@@ -106,7 +106,7 @@ monitors:
   linkable: false # allows the title to be a link, default=true
 
 - id: fitzpatrickmemorial-org
-  name: FitzPatrick Memorial	
+  name: FitzPatrick Memorial
   url: 'https://www.fitzpatrickmemorial.org'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
@@ -114,15 +114,15 @@ monitors:
   linkable: false # allows the title to be a link, default=true
 
 - id: flikcinemas-com
-  name: Flik Cinemas	
-  url: 'https://www.flikcinemas.com'
+  name: Flik Cinemas
+  url: 'https://www.flikcinemas.com/'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
   followRedirect: false # should fetch follow redirects, default=false
   linkable: false # allows the title to be a link, default=true
 
 - id: gatetheatre-ie
-  name: The Gate	
+  name: The Gate
   url: 'https://www.gatetheatre.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
@@ -138,7 +138,7 @@ monitors:
   linkable: false # allows the title to be a link, default=true
 
 - id: rugbyplayersireland-ie	
-  name: Rugby Players Ireland	
+  name: Rugby Players Ireland
   url: 'https://www.rugbyplayersireland.ie'
   method: GET # default=GET
   expectStatus: 200 # operational status, default=200
